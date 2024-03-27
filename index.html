@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom_styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>AndrAir</title>
+    <script
+        nonce="aa26d9af-8efb-4ef8-b53e-35c3814da093">try { (function (w, d) { !function (lD, lE, lF, lG) { lD[lF] = lD[lF] || {}; lD[lF].executed = []; lD.zaraz = { deferred: [], listeners: [] }; lD.zaraz.q = []; lD.zaraz._f = function (lH) { return async function () { var lI = Array.prototype.slice.call(arguments); lD.zaraz.q.push({ m: lH, a: lI }) } }; for (const lJ of ["track", "set", "debug"]) lD.zaraz[lJ] = lD.zaraz._f(lJ); lD.zaraz.init = () => { var lK = lE.getElementsByTagName(lG)[0], lL = lE.createElement(lG), lM = lE.getElementsByTagName("title")[0]; lM && (lD[lF].t = lE.getElementsByTagName("title")[0].text); lD[lF].x = Math.random(); lD[lF].w = lD.screen.width; lD[lF].h = lD.screen.height; lD[lF].j = lD.innerHeight; lD[lF].e = lD.innerWidth; lD[lF].l = lD.location.href; lD[lF].r = lE.referrer; lD[lF].k = lD.screen.colorDepth; lD[lF].n = lE.characterSet; lD[lF].o = (new Date).getTimezoneOffset(); if (lD.dataLayer) for (const lQ of Object.entries(Object.entries(dataLayer).reduce(((lR, lS) => ({ ...lR[1], ...lS[1] })), {}))) zaraz.set(lQ[0], lQ[1], { scope: "page" }); lD[lF].q = []; for (; lD.zaraz.q.length;) { const lT = lD.zaraz.q.shift(); lD[lF].q.push(lT) } lL.defer = !0; for (const lU of [localStorage, sessionStorage]) Object.keys(lU || {}).filter((lW => lW.startsWith("_zaraz_"))).forEach((lV => { try { lD[lF]["z_" + lV.slice(7)] = JSON.parse(lU.getItem(lV)) } catch { lD[lF]["z_" + lV.slice(7)] = lU.getItem(lV) } })); lL.referrerPolicy = "origin"; lL.src = "../../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(lD[lF]))); lK.parentNode.insertBefore(lL, lK) };["complete", "interactive"].includes(lE.readyState) ? zaraz.init() : lD.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document) } catch (e) { throw fetch("/cdn-cgi/zaraz/t"), e; };</script>
+    <title>AndrAir Flights</title>
+</head>
+
+<body>
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index-2.html"
+                            style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">AndreAir<span
+                                class="text-primary">.</span> </a>
+                    </h1>
+                </div>
+                <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <li><a href="#home-section" class="nav-link">Home</a></li>
+                            <li class="has-children">
+                                <a href="#about-section" class="nav-link">About Us</a>
+                                <ul class="dropdown">
+                                    <li><a href="#team-section" class="nav-link">Team</a></li>
+                                    <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
+                                    <li><a href="#faq-section" class="nav-link">FAQ</a></li>
+                                    <li><a href="#gallery-section" class="nav-link">Gallery</a></li>
+                                    <li><a href="#services-section" class="nav-link">Services</a></li>
+                                    <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                                    <li class="has-children">
+                                        <a href="#">More Links</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Menu One</a></li>
+                                            <li><a href="#">Menu Two</a></li>
+                                            <li><a href="#">Menu Three</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#blog-section" class="nav-link">Blog</a></li>
+                            <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                            <li class="social"><a href="#contact-section" class="nav-link"><span
+                                        class="icon-facebook"></span></a></li>
+                            <li class="social"><a href="#contact-section" class="nav-link"><span
+                                        class="icon-twitter"></span></a></li>
+                            <li class="social"><a href="#contact-section" class="nav-link"><span
+                                        class="icon-linkedin"></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a
+                        href="#" class="site-menu-toggle js-menu-toggle float-right"><span
+                            class="icon-menu h3"></span></a></div>
+            </div>
+        </div>
+    </header>
+    <div class="hero_section row justify-content-center">
+        <div class="col-md-5 col-sm-12">
+            <h1 style="text-transform: uppercase;text-align: center;">AndrAir Flight Airways</h1>
+            <p style="text-align: center;width: 80%;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error qui debitis nihil mollitia, animi
+                laboriosam consectetur odio ipsum exercitationem? Praesentium suscipit reiciendis, obcaecati tempore
+                itaque omnis pariatur quod laudantium sequi.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis nam, accusamus quis aliquam omnis
+                modi, eveniet totam sapiente cupiditate vero quo quod et, tempore a labore aut recusandae! Rem, harum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, sed animi. Cupiditate, nihil tempore
+                doloremque non fuga vitae ratione sed totam eos, repellat nisi vero, blanditiis officia expedita animi
+                rerum?
+            </p>
+            <ul class="row" style="width: 90%;">
+                <li class="col"><i class="fa fa-plane" style="padding: 5px;"></i>Airways</li>
+                <li class="col"><i class="fa fa-train" style="padding: 5px;"></i>Railways</li>
+                <li class="col"><i class="fa fa-ship" style="padding: 5px;"></i>Waterways</li>
+                <li class="col"><i class="fa fa-road" style="padding: 5px;"></i>Roadways</li>
+            </ul>
+        </div>
+        <div class="col-md-7 col-sm-12">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" alt="">
+        </div>
+    </div>
+    <section class="row destination_wrapper justify-content-around container">
+        <h1 style="width: 100%;font-family: 'Fraunces', serif;">Destination Countries</h1>
+        <div class="col-md-4 col-11">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" alt="">
+            <div class="info">
+                <h2>Maldeevs</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et minima laudantium aspernatur aperiam in
+                    hic quae quaerat laborum libero, tempora est exercitationem sit voluptates, consectetur doloribus
+                    dicta labore assumenda ut?
+                </p>
+                <span>
+                    <del>KES 80,000</del>
+                    <br><br>
+                    <i>KES 75,000</i>
+                    <br><br>
+                    <a href="">Learn More</a>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-4 col-11">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" alt="">
+            <div class="info">
+                <h2>Maldeevs</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et minima laudantium aspernatur aperiam in
+                    hic quae quaerat laborum libero, tempora est exercitationem sit voluptates, consectetur doloribus
+                    dicta labore assumenda ut?
+                </p>
+                <span>
+                    <del>KES 80,000</del>
+                    <br><br>
+                    <i>KES 75,000</i>
+                    <br><br>
+                    <a href="">Learn More</a>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-4 col-11">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" alt="">
+            <div class="info">
+                <h2>Maldeevs</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et minima laudantium aspernatur aperiam in
+                    hic quae quaerat laborum libero, tempora est exercitationem sit voluptates, consectetur doloribus
+                    dicta labore assumenda ut?
+                </p>
+                <span>
+                    <del>KES 80,000</del>
+                    <br><br>
+                    <i>KES 75,000</i>
+                    <br><br>
+                    <a href="">Learn More</a>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-4 col-11">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" alt="">
+            <div class="info">
+                <h2>Maldeevs</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et minima laudantium aspernatur aperiam in
+                    hic quae quaerat laborum libero, tempora est exercitationem sit voluptates, consectetur doloribus
+                    dicta labore assumenda ut?
+                </p>
+                <span>
+                    <del>KES 80,000</del>
+                    <br><br>
+                    <i>KES 75,000</i>
+                    <br><br>
+                    <a href="">Learn More</a>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-4 col-11">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" alt="">
+            <div class="info">
+                <h2>Maldeevs</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et minima laudantium aspernatur aperiam in
+                    hic quae quaerat laborum libero, tempora est exercitationem sit voluptates, consectetur doloribus
+                    dicta labore assumenda ut?
+                </p>
+                <span>
+                    <del>KES 80,000</del>
+                    <br><br>
+                    <i>KES 75,000</i>
+                    <br><br>
+                    <a href="">Learn More</a>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-4 col-11">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" alt="">
+            <div class="info">
+                <h2>Maldeevs</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et minima laudantium aspernatur aperiam in
+                    hic quae quaerat laborum libero, tempora est exercitationem sit voluptates, consectetur doloribus
+                    dicta labore assumenda ut?
+                </p>
+                <span>
+                    <del>KES 80,000</del>
+                    <br><br>
+                    <i>KES 75,000</i>
+                    <br><br>
+                    <a href="">Learn More</a>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-4 col-11">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" alt="">
+            <div class="info">
+                <h2>Maldeevs</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et minima laudantium aspernatur aperiam in
+                    hic quae quaerat laborum libero, tempora est exercitationem sit voluptates, consectetur doloribus
+                    dicta labore assumenda ut?
+                </p>
+                <span>
+                    <del>KES 80,000</del>
+                    <br><br>
+                    <i>KES 75,000</i>
+                    <br><br>
+                    <a href="">Learn More</a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="row towers_wrapper justify-content-around container-fluid">
+        <h1 style="width: 100%;font-family: 'Fraunces', serif;">Our Tours & Travels</h1>
+        <div class="card col-md-4 col-12" style="width: 18rem; margin-top: 50px;">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The GreenLand</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, explicabo! Porro, placeat? Amet
+                    esse numquam quisquam facilis omnis voluptas natus architecto laboriosam, magni beatae ex. Ducimus
+                    iste architecto soluta porro.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fa fa-bed" style="padding: 5px;"></i>3 Days Accomodation</li>
+                <li class="list-group-item"><i class="fa fa-car" style="padding: 5px;"></i>500Miles Free Travel</li>
+                <li class="list-group-item"><i class="fa fa-shield" style="padding: 5px;"></i>Guaranteed Security
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Learn More</a>
+            </div>
+        </div>
+        <div class="card col-md-4 col-12" style="width: 18rem; margin-top: 50px;">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The GreenLand</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, explicabo! Porro, placeat? Amet
+                    esse numquam quisquam facilis omnis voluptas natus architecto laboriosam, magni beatae ex. Ducimus
+                    iste architecto soluta porro.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fa fa-bed" style="padding: 5px;"></i>3 Days Accomodation</li>
+                <li class="list-group-item"><i class="fa fa-car" style="padding: 5px;"></i>500Miles Free Travel</li>
+                <li class="list-group-item"><i class="fa fa-shield" style="padding: 5px;"></i>Guaranteed Security
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Learn More</a>
+            </div>
+        </div>
+        <div class="card col-md-4 col-12" style="width: 18rem; margin-top: 50px;">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The GreenLand</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, explicabo! Porro, placeat? Amet
+                    esse numquam quisquam facilis omnis voluptas natus architecto laboriosam, magni beatae ex. Ducimus
+                    iste architecto soluta porro.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fa fa-bed" style="padding: 5px;"></i>3 Days Accomodation</li>
+                <li class="list-group-item"><i class="fa fa-car" style="padding: 5px;"></i>500Miles Free Travel</li>
+                <li class="list-group-item"><i class="fa fa-shield" style="padding: 5px;"></i>Guaranteed Security
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Learn More</a>
+            </div>
+        </div>
+        <div class="card col-md-4 col-12" style="width: 18rem; margin-top: 50px;">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The GreenLand</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, explicabo! Porro, placeat? Amet
+                    esse numquam quisquam facilis omnis voluptas natus architecto laboriosam, magni beatae ex. Ducimus
+                    iste architecto soluta porro.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fa fa-bed" style="padding: 5px;"></i>3 Days Accomodation</li>
+                <li class="list-group-item"><i class="fa fa-car" style="padding: 5px;"></i>500Miles Free Travel</li>
+                <li class="list-group-item"><i class="fa fa-shield" style="padding: 5px;"></i>Guaranteed Security
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Learn More</a>
+            </div>
+        </div>
+        <div class="card col-md-4 col-12" style="width: 18rem; margin-top: 50px;">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The GreenLand</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, explicabo! Porro, placeat? Amet
+                    esse numquam quisquam facilis omnis voluptas natus architecto laboriosam, magni beatae ex. Ducimus
+                    iste architecto soluta porro.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fa fa-bed" style="padding: 5px;"></i>3 Days Accomodation</li>
+                <li class="list-group-item"><i class="fa fa-car" style="padding: 5px;"></i>500Miles Free Travel</li>
+                <li class="list-group-item"><i class="fa fa-shield" style="padding: 5px;"></i>Guaranteed Security
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Learn More</a>
+            </div>
+        </div>
+        <div class="card col-md-4 col-12" style="width: 18rem; margin-top: 50px;">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The GreenLand</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, explicabo! Porro, placeat? Amet
+                    esse numquam quisquam facilis omnis voluptas natus architecto laboriosam, magni beatae ex. Ducimus
+                    iste architecto soluta porro.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fa fa-bed" style="padding: 5px;"></i>3 Days Accomodation</li>
+                <li class="list-group-item"><i class="fa fa-car" style="padding: 5px;"></i>500Miles Free Travel</li>
+                <li class="list-group-item"><i class="fa fa-shield" style="padding: 5px;"></i>Guaranteed Security
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Learn More</a>
+            </div>
+        </div>
+        <div class="card col-md-4 col-12" style="width: 18rem; margin-top: 50px;">
+            <img src="assets/imgs/pexels-sabel-blanco-1486577.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The GreenLand</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, explicabo! Porro, placeat? Amet
+                    esse numquam quisquam facilis omnis voluptas natus architecto laboriosam, magni beatae ex. Ducimus
+                    iste architecto soluta porro.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fa fa-bed" style="padding: 5px;"></i>3 Days Accomodation</li>
+                <li class="list-group-item"><i class="fa fa-car" style="padding: 5px;"></i>500Miles Free Travel</li>
+                <li class="list-group-item"><i class="fa fa-shield" style="padding: 5px;"></i>Guaranteed Security
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Learn More</a>
+            </div>
+        </div>
+
+    </section>
+    <div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>SEND YOUR INQUIRIES</h3>
+                        <p>Fill in the data below.</p>
+                        <form class="requires-validation" novalidate>
+
+                            <div class="col-md-12">
+                                <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                                <div class="valid-feedback">Username field is valid!</div>
+                                <div class="invalid-feedback">Username field cannot be blank!</div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <input class="form-control" type="email" name="email" placeholder="E-mail Address"
+                                    required>
+                                <div class="valid-feedback">Email field is valid!</div>
+                                <div class="invalid-feedback">Email field cannot be blank!</div>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label">I confirm that all data are correct</label>
+                                <div class="invalid-feedback">Please confirm that the entered data are all correct!
+                                </div>
+                            </div>
+
+
+                            <div class="form-button mt-3">
+                                <button id="submit" type="submit" class="btn btn-primary">Send Inquiry</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p style="color: black;">Copywrite 2024, AndrAir Flight Airlines</p>
+        <div>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+    </footer>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
+        integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
+        data-cf-beacon='{"rayId":"86ae6a0b2fcb5bc7","b":1,"version":"2024.3.0","token":"cd0b4b3a733644fc843ef0b185f98241"}'
+        crossorigin="anonymous"></script>
+    <script>
+        (function () {
+            'use strict'
+            const forms = document.querySelectorAll('.requires-validation')
+            Array.from(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+
+    </script>
+</body>
+
+</html>
